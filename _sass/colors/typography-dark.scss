@@ -6,10 +6,10 @@
   /* Framework color */
   --main-bg: rgb(27, 27, 30);
   --mask-bg: rgb(68, 69, 70);
-  --main-border-color: rgb(44, 45, 45);
+  --main-border-color: #18c9ff;
 
   /* Common color */
-  --text-color: rgb(175, 176, 177);
+  --text-color: rgb(215, 215, 215);
   --text-muted-color: #868686;
   --text-muted-highlight-color: #aeaeae;
   --heading-color: #cccccc;
@@ -34,7 +34,7 @@
   );
 
   /* Sidebar */
-  --site-title-color: #717070;
+  --site-title-color: #c2c2c2;
   --site-subtitle-color: #868686;
   --sidebar-bg: #1e1e1e;
   --sidebar-border-color: #292929;
@@ -43,7 +43,7 @@
   --sidebar-hover-bg: #262626;
   --sidebar-btn-bg: #232328;
   --sidebar-btn-color: #787878;
-  --avatar-border-color: rgb(206, 206, 206, 0.9);
+  --avatar-border-color: rgba(255, 255, 255, 0.9);
 
   /* Topbar */
   --topbar-bg: rgb(27, 27, 30, 0.64);
@@ -69,7 +69,7 @@
   --btn-share-hover-color: #bfc1ca;
   --card-bg: #1e1e1e;
   --card-hovor-bg: #464d51;
-  --card-shadow: rgb(21, 21, 21, 0.72) 0 6px 18px 0,
+  --card-shadow: rgba(0, 0, 0, 0.72) 0 6px 18px 0,
     rgb(137, 135, 135, 0.24) 0 0 0 1px;
   --kbd-wrap-color: #6a6a6a;
   --kbd-text-color: #d3d3d3;

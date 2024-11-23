@@ -3,15 +3,15 @@
  */
 
 @mixin dark-syntax {
-  --language-border-color: #2d2d2d;
-  --highlight-bg-color: #151515;
+  --language-border-color: #ffffff;
+  --highlight-bg-color: #d4eaff;
   --highlighter-rouge-color: #c9def1;
   --highlight-lineno-color: #808080;
-  --inline-code-bg: rgba(255, 255, 255, 0.05);
-  --code-color: #b0b0b0;
-  --code-header-text-color: #6a6a6a;
-  --code-header-muted-color: #353535;
-  --code-header-icon-color: #565656;
+  --inline-code-bg: rgba(255, 255, 255, 0.392);
+  --code-color: #464646;
+  --code-header-text-color: #434343;
+  --code-header-muted-color: #81ffc2;
+  --code-header-icon-color: #81bcff;
   --clipboard-checked-color: #2bcc2b;
   --filepath-text-color: #cacaca;
 
@@ -32,7 +32,7 @@
   .highlight,
   .highlight .w {
     color: #d0d0d0;
-    background-color: #151515;
+    background-color: #ffffff;
   }
 
   .highlight .err {
