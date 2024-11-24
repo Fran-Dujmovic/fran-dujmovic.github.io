@@ -76,7 +76,7 @@ gradlew.bat  runCli -–console plain
 
 This will create a new project structure for you with seperate directories for each of the **Gateway, Designer and Client scopes**, as well as a **Common and Build directory**. If you receive a **BUILD SUCCESSFUL** message, you can close the command prompt and open your new project in your preferred IDE:
 
-![Desktop View](https://i.ibb.co/tc3NWbR/Intelli-J-Generator-CLI.png){: width="972" height="589" }
+![Desktop View](https://i.ibb.co/tc3NWbR/Intelli-J-Generator-CLI.png)
 _IntelliJ Gradle Compiled Tools Project_
 
 # Build a Module
@@ -138,7 +138,7 @@ wrapper.java.additional.8=-Dignition.allowunsignedmodules=true
    ```
 Ensure that the number is standalone, meaning it doesn't match to or conflict with other existing commands. See example below:
 
-![Desktop View](https://i.ibb.co/3SZ53xy/Java-Additional-Parameters.png){: width="972" height="589" }
+![Desktop View](https://i.ibb.co/3SZ53xy/Java-Additional-Parameters.png)
 _Java Additional Parameters Config section_
 
 # Install a Module
