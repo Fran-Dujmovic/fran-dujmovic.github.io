@@ -1,14 +1,20 @@
 @mixin light-syntax {
   /* --- custom blue-white colors --- */
   --language-border-color: #7bbbff; /* Light blue for borders */
-  --highlight-bg-color: #c9dbff;   /* Soft white with a hint of blue */
+  --highlight-bg-color: #c9dbff; /* Soft white with a hint of blue */
   --highlighter-rouge-color: #1c3b69; /* Deep blue for text highlights */
-  --highlight-lineno-color: #7a9aa3;  /* Soft blue-gray for line numbers */
-  --inline-code-bg: rgba(0, 213, 255, 0.326); /* Light blue tint for inline code */
+  --highlight-lineno-color: #7a9aa3; /* Soft blue-gray for line numbers */
+  --inline-code-bg: rgba(
+    0,
+    213,
+    255,
+    0.326
+  ); /* Light blue tint for inline code */
+  /* stylelint-disable-next-line custom-property-empty-line-before */
   --code-color: #022b3a; /* Deep navy blue for code text */
   --code-header-text-color: #00334d; /* Almost black-blue for header text */
   --code-header-muted-color: #81ffc2; /* Light green for muted headers */
-  --code-header-icon-color: #77a9c6;  /* Soft light blue for icons */
+  --code-header-icon-color: #77a9c6; /* Soft light blue for icons */
   --clipboard-checked-color: #6dffb9; /* Bright green for clipboard success */
 
   /* --- Syntax highlight theme from `rougify style github` --- */
@@ -164,7 +170,7 @@
 
   .highlight .err {
     color: #f9fbff;
-    background-color: #870f30;
+    background-color: #ffbecf;
   }
 
   .highlight .c,
